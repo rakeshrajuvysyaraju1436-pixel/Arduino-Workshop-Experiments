@@ -1,51 +1,44 @@
 # Arduino Workshop Experiments
 
-This repository contains my Arduino workshop experiments and basic embedded systems programs developed as part of my Electronics and Communication Engineering learning journey.
+A collection of Arduino experiments and basic embedded systems projects. Each experiment has its own folder with the code and a README.
 
-## Experiment 01: LED Interfacing with Arduino
+## Topics Covered
+- LED and buzzer interfacing
+- Push button and sensor interfacing
+- Bluetooth communication
+- PWM and analog input
+- Display interfacing (7 segment, LCD)
+- Temperature and humidity sensing
+- DC motor, stepper motor and servo motor control
+- Home automation
 
-### Aim
-To familiarize ourselves with Arduino and perform the necessary software installation. To interface an LED with Arduino and write a program to turn ON the LED for 1 second after every 2 seconds.
+## Experiments
 
-### Components Required
-- Arduino UNO
-- LED
-- 220Ω Resistor
-- Breadboard
-- Jumper Wires
-- USB Cable
+| No. | Experiment | Status |
+|-----|------------|--------|
+| 1 | LED, Push Button and Bluetooth | Completed |
+| 2 | PWM LED control | Planned |
+| 3 | 7 Segment and LCD display | Planned |
+| 4 | Temperature and humidity sensor | Planned |
+| 5 | Temperature based motor control | Planned |
+| 6 | Motor control using push buttons | Planned |
+| 7 | Motor speed control using potentiometer | Planned |
+| 8 | Stepper motor control | Planned |
+| 10 | Servo motor control | Planned |
+| 12 | Home automation | Planned |
 
-### Software Used
-- Arduino IDE 2.3.11
+## Hardware Used
+Arduino Uno, LEDs, sensors, motors, HC-05 Bluetooth module
 
-### Pin Connections
-- Arduino Digital Pin 13 → LED Anode (through 220Ω resistor)
-- LED Cathode → GND
+## Software Used
+Arduino IDE
 
-### Working Principle
-1. Configure digital pin 13 as OUTPUT.
-2. Set the pin HIGH to turn ON the LED.
-3. Keep the LED ON for 1 second.
-4. Set the pin LOW to turn OFF the LED.
-5. Keep the LED OFF for 2 seconds.
-6. Repeat the process continuously.
+## How to Run
+1. Open the `.ino` file in Arduino IDE.
+2. Select **Tools → Board → Arduino Uno** and the correct port.
+3. Click **Upload**.
 
-### Programming Concepts
-- pinMode()
-- digitalWrite()
-- delay()
-- Digital Output Control
+## Author
+**Vyasyraju Rakesh Raju**
 
-### Source Code
-[View LED.ino](LED.ino)
-
-### Result
-The Arduino LED interfacing program was prepared and documented successfully.
-
-### Note
-This program is uploaded for learning and documentation purposes. It has  been tested on physical Arduino hardware.
-
----
-**Platform:** Arduino UNO  
-**Programming Language:** Embedded C/C++  
-**Category:** Arduino Workshop / Embedded Systems
+SRKR, Department of ECE
